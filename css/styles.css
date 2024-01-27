@@ -588,6 +588,8 @@ footer {
 
 .crossed {
     position:relative;   
+    display: inline-block;
+    margin-right: 8px;
 }
 .crossed .line {
     position:absolute;
