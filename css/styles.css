@@ -586,7 +586,17 @@ footer {
     font-size: 16px;
 }
 
-
+.crossed {
+    position:relative;   
+}
+.crossed .line {
+    position:absolute;
+    width: 100%;
+    height: 2px;
+    background-color: #f54932;
+    top: calc(50% - 2px);
+    left: 0
+}
 
 
 
