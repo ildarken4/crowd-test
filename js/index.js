@@ -72,7 +72,7 @@ document.addEventListener('DOMContentLoaded', function () {
         if (windowWidth < 576 && !isSliderActive) {
             
             
-            intervalId = setInterval(slideForward, 5000);
+            intervalId = setInterval(slideForward, 4000);
             isSliderActive = true; 
         } else if (windowWidth >= 576 && isSliderActive) {
             clearInterval(intervalId);
