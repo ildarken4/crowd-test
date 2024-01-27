@@ -99,7 +99,7 @@ a.btn {
     color: #313131;
 }
 
-.btn_blue {
+.btn.btn_blue {
     border: 1px solid rgba(48, 87, 162, 1);
     color: rgba(48, 87, 162, 1);
     background-color: transparent;
